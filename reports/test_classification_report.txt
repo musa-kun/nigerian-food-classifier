@@ -1,0 +1,24 @@
+                                precision    recall  f1-score   support
+
+Abacha and Ugba(african salad)      0.875     0.824     0.848        51
+                 Akara and Eko      0.940     0.797     0.863        79
+      Amala and Gbegiri- Ewedu      0.974     0.892     0.931        83
+                         Asaro      0.922     0.766     0.837        77
+                    Boli(bole)      0.963     0.881     0.920        59
+                     Chin Chin      0.821     0.877     0.848        73
+                    Egusi Soup      0.800     0.917     0.854        96
+                    Ewa-Agoyin      0.846     0.917     0.880        48
+        Fried Plantains (dodo)      0.971     0.909     0.939       110
+                   Jollof Rice      0.851     0.858     0.855       120
+                      Meat-pie      0.934     0.891     0.912        64
+                     Moin-Moin      0.791     0.900     0.842        80
+                        Nkwobi      0.885     0.844     0.864        64
+                     Okro Soup      0.786     0.868     0.825       114
+                   Pepper Soup      0.821     0.927     0.871       109
+                     Puff-Puff      0.886     0.909     0.897        77
+                          Suya      0.920     0.880     0.900        92
+                Vegetable Soup      0.922     0.865     0.892        96
+
+                      accuracy                          0.875      1492
+                     macro avg      0.884     0.873     0.877      1492
+                  weighted avg      0.881     0.875     0.876      1492
