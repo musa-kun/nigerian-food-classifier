@@ -4,7 +4,7 @@ An image classifier for **18 Nigerian dishes and snacks** (jollof rice, egusi so
 
 **Final model (v2): 87.53% accuracy on the official test set (1,492 images), 87.44% after excluding test images that also appear in the training data.**
 
-Built by [YOUR NAME] as a portfolio project for an AI engineering course. Trained on a Kaggle Tesla T4 GPU with PyTorch 2.11.0 and torchvision 0.26.0.
+Built by Musa Ahmed as a portfolio project for an AI engineering course. Trained on a Kaggle Tesla T4 GPU with PyTorch 2.11.0 and torchvision 0.26.0.
 
 ---
 
@@ -27,15 +27,15 @@ Built by [YOUR NAME] as a portfolio project for an AI engineering course. Traine
 
 ### Learning curves
 
-![Learning curves](images/learning_curves.png)
+![Learning curves](Images/learning_curves.png)
 
 Fine-tuning (v2) started from the v1 weights, so its epoch 1 follows v1's epoch 5 and is not directly comparable with the other curves' epoch 1. At epoch 5 the v2 train/validation accuracy gap was about 5.9 points (91.65% vs 85.71%), up from about 1.7 for v1. Validation loss was still falling, but more slowly each epoch.
 
 ### Test-set confusion matrix (v2)
 
-![Test confusion matrix](images/confusion_matrix_test.png)
+![Test confusion matrix](Images/confusion_matrix_test.png)
 
-The validation confusion matrix is in `images/confusion_matrix_val_v2.png`, and the full per-class test report is in `reports/test_classification_report.txt`.
+The validation confusion matrix is in `Images/confusion_matrix_val_v2.png`, and the full per-class test report is in `reports/test_classification_report.txt`.
 
 ### Per-class test results (v2)
 
@@ -226,6 +226,3 @@ Notes on reproducibility:
 
 Python with PyTorch 2.11.0 and torchvision 0.26.0 (CUDA, Tesla T4). Other dependencies are listed in `requirements.txt`.
 
-## License
-
-[Add a LICENSE file for the code, for example MIT.] The dataset is not redistributed here; see its Kaggle page for its terms.
